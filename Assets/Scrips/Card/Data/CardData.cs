@@ -6,7 +6,7 @@ public static class CardDataHelper
 {
 #if UNITY_EDITOR
     public const string CardDataFolder = "Card Data/";
-        #endif
+#endif
 }
 [CreateAssetMenu(menuName = CardDataHelper.CardDataFolder + nameof(CardData))]
 public abstract class CardData : ScriptableObject

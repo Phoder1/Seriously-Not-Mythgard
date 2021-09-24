@@ -4,7 +4,5 @@ using UnityEngine;
 
 public sealed class SpellCard : Card
 {
-    public SpellCard(CardData data) : base(data)
-    {
-    }
+    public SpellCard(CardData data) : base(data) { }
 }
