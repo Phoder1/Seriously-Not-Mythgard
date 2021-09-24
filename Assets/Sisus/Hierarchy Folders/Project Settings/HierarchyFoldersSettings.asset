@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6b09578d46fde94893a264446e75dd1, type: 3}
+  m_Name: HierarchyFoldersSettings
+  m_EditorClassIdentifier: 
+  enableNamingRules: 0
+  defaultName: New Folder
+  autoNameOnAdd: 1
+  namePrefix: 
+  nameSuffix: 
+  forceNamesUpperCase: 0
+  removeFromScenes: 1
+  foldersInPrefabs: 2
+  warnWhenNotRemovedFromBuild: 1
+  playModeBehaviour: 0
+  playModeStrippingMethod: 0
+  infoBoxText: 'This is a hierarchy folder and can be used for organizing objects
+    in the hierarchy.
+
+
+    When a build is being made all members will be moved
+    up the parent chain and the folder itself will be removed.'
+  prefabInfoBoxText: 'This is a hierarchy folder and can be used for organizing objects
+    inside the prefab.
+
+
+    When the prefab is instantiated at runtime all members
+    of the hierarchy folder will be moved up the parent chain and the folder itself
+    will be removed.'
+  enableHierarchyIcons: 1
+  doubleClickSelectsChildrens: 1
+  allowInactiveHierarchyFolders: 1
+  allowComponentsOnHierarchyFolders: 2
+  whitelistedComponents:
+  - BoxCollider
+  askAboutAllowInactiveHierarchyFolders: 0
+  enableMenuItems: 1
+  enableToolbarIcon: 1
+  extensionMethodsInGlobalNamespace: 1
+  modernLight:
+    closed: {fileID: 2800000, guid: c5a46b4001dde9c489f142bc9cda7c2b, type: 3}
+    open: {fileID: 2800000, guid: ba01e978cf1fda24885d4a5674b93f99, type: 3}
+  modernDark:
+    closed: {fileID: 2800000, guid: 52af136b2403c0d4e9b4e67bfb5ff30c, type: 3}
+    open: {fileID: 2800000, guid: cb48fe56d6dd39d439280e018258f4c4, type: 3}
+  classicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  classicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabModernLight:
+    closed: {fileID: 2800000, guid: 57d7988c91dae1c4e8efbc4bba34eded, type: 3}
+    open: {fileID: 2800000, guid: f7e668b0c67a5024e9b708aab75b5ba0, type: 3}
+  prefabModernDark:
+    closed: {fileID: 2800000, guid: 061ae0e32b9f4de4b993d832153023f2, type: 3}
+    open: {fileID: 2800000, guid: 03e234574daa837429e6e8d737c817a1, type: 3}
+  prefabClassicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabClassicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabAdditionModernLight:
+    closed: {fileID: 2800000, guid: e4aba31d10e07584a810978b4dbf8408, type: 3}
+    open: {fileID: 2800000, guid: 5a783d6781f82b5468e71c7f6ee4a184, type: 3}
+  prefabAdditionModernDark:
+    closed: {fileID: 2800000, guid: ab66f693a928e324998bafbbfd1b7e80, type: 3}
+    open: {fileID: 2800000, guid: d5f6ae5a5ae0ea04ebd313c52b3d4c67, type: 3}
+  prefabAdditionClassicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabAdditionClassicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  gameObjectAdditionModernLight:
+    closed: {fileID: 2800000, guid: 36c50b735501a914b81b25738d466626, type: 3}
+    open: {fileID: 2800000, guid: 7ada374f21a79f849b7870db0a770962, type: 3}
+  gameObjectAdditionModernDark:
+    closed: {fileID: 2800000, guid: ac024606c541ebf45a2bc16cb33ca699, type: 3}
+    open: {fileID: 2800000, guid: 4d36e872e89c8c84b96c1bc48426a25e, type: 3}
+  gameObjectAdditionClassicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  gameObjectAdditionClassicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabVariantModernLight:
+    closed: {fileID: 2800000, guid: 641edb50f3647444e8239ec368d474f2, type: 3}
+    open: {fileID: 2800000, guid: f4ee9bdce9aa4ff48b684213db780a9c, type: 3}
+  prefabVariantModernDark:
+    closed: {fileID: 2800000, guid: 101e4fcb7a5dad741a3c87dde948da0d, type: 3}
+    open: {fileID: 2800000, guid: ecaa9795248b9e94692ad7b0351b3103, type: 3}
+  prefabVariantClassicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabVariantClassicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabVariantAdditionModernLight:
+    closed: {fileID: 2800000, guid: 56aeca39352235c4d8bb99e14fc0ee29, type: 3}
+    open: {fileID: 2800000, guid: 75231aff7da8d1e4bb45d933989d9042, type: 3}
+  prefabVariantAdditionModernDark:
+    closed: {fileID: 2800000, guid: a7af75b8c6587464ea961818114644d9, type: 3}
+    open: {fileID: 2800000, guid: 3420a9fae95c84243b888de8c979fa4c, type: 3}
+  prefabVariantAdditionClassicLight:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  prefabVariantAdditionClassicDark:
+    closed: {fileID: 0}
+    open: {fileID: 0}
+  previousNamePrefix: '--- '
+  previousNameSuffix: ' ---'

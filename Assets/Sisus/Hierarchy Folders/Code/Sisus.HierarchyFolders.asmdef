@@ -1,0 +1,10 @@
+{
+    "name": "Sisus.HierarchyFolders",
+    "references": [
+        "Sisus.Attributes"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
