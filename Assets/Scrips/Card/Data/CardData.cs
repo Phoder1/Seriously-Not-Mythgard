@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Sirenix.OdinInspector;
 
 public static class CardDataHelper
 {
@@ -8,11 +10,13 @@ public static class CardDataHelper
     public const string CardDataFolder = "Card Data/";
 #endif
 }
-[CreateAssetMenu(menuName = CardDataHelper.CardDataFolder + nameof(CardData))]
 public abstract class CardData : ScriptableObject
 {
     [SerializeField]
     private string _name;
     public string Name => _name;
+
+    [SerializeField]
+    List<Ability> abillities;
 
 }
